@@ -2,5 +2,24 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:recommended"
+  ],
+  "packageRules": [
+    {
+      "matchFileNames": ["Dockerfile"],
+      "extends": [":semanticCommitTypeAll(fix)"]
+    },
+    {
+      "matchFileNames": ["Dockerfile"],
+      "matchUpdateTypes": ["major", "minor"],
+      "extends": [":semanticCommitTypeAll(feat)"]
+    }
+  ],
+  "regexManagers": [
+    {
+      "fileMatch": ["Dockerfile$"],
+      "matchStrings": ["RUN pip3 install .*?\"yamllint==(?<currentValue>.*)\"\\s"],
+      "depNameTemplate": "adrienverge/yamllint",
+      "datasourceTemplate": "github-tags"
+    }
   ]
 }
