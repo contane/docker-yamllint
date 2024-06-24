@@ -6,12 +6,16 @@
   "packageRules": [
     {
       "matchFileNames": ["Dockerfile"],
-      "extends": [":semanticCommitTypeAll(fix)"]
+      "semanticCommitType": "fix"
     },
     {
       "matchFileNames": ["Dockerfile"],
       "matchUpdateTypes": ["major", "minor"],
-      "extends": [":semanticCommitTypeAll(feat)"]
+      "semanticCommitType": "feat"
+    },
+    {
+      "matchFileNames": [".github/workflows/*.yml"],
+      "semanticCommitType": "chore"
     }
   ],
   "regexManagers": [
