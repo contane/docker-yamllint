@@ -3,6 +3,9 @@
 [yamllint](https://github.com/adrienverge/yamllint) packaged as a container
 image, published by [Contane](https://contane.net).
 
+- Docker Hub: https://hub.docker.com/r/contane/yamllint
+- GitHub: https://github.com/contane/docker-yamllint
+
 ## Usage
 
 The image is Alpine-based. By default, it runs in the `/data` directory with
