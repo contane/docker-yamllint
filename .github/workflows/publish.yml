@@ -59,6 +59,6 @@ jobs:
         with:
           username: contane
           password: ${{ secrets.DOCKER_HUB_ACCESS_TOKEN }}
-          repository: contane/foreman
+          repository: contane/yamllint
           short-description: ${{ github.event.repository.description }}
           enable-url-completion: true
