@@ -21,7 +21,7 @@ for available configuration options that can be set in a `.yamllint.yaml` or
 To run `yamllint` on the current directory:
 
 ```sh
-docker run --rm --user yamllint -v $(pwd):/data contane/yamllint -f colored .
+docker run --rm --user yamllint -v "$(pwd):/data" contane/yamllint -f colored .
 ```
 
 ### GitLab CI
