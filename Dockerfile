@@ -1,4 +1,4 @@
-FROM python:3.12-alpine3.19
+FROM python:3.12-alpine3.20
 
 # Note: Labels are applied automatically by the CI/CD pipeline
 
