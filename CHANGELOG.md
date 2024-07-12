@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/contane/docker-yamllint/compare/v1.0.1...v1.1.0) (2024-07-12)
+
+
+### Features
+
+* Provide a native arm64 build ([#17](https://github.com/contane/docker-yamllint/issues/17)) ([170d3bb](https://github.com/contane/docker-yamllint/commit/170d3bb2e0f11ef2e692b9625ed49080d079d1ca))
+
 ## [1.0.1](https://github.com/contane/docker-yamllint/compare/v1.0.0...v1.0.1) (2024-07-08)
 
 
