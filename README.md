@@ -10,7 +10,7 @@ image, published by [Contane](https://contane.net).
 
 The image is Alpine-based. By default, it runs in the `/data` directory with
 the root user. A non-root user named `yamllint` is also available and should
-be used if possible.
+be used if possible. We build for `linux/amd64` and `linux/arm64` platforms.
 
 See the [yamllint documentation](https://yamllint.readthedocs.io/en/stable/configuration.html)
 for available configuration options that can be set in a `.yamllint.yaml` or
