@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/contane/docker-yamllint/compare/v1.1.0...v1.2.0) (2024-10-13)
+
+
+### Features
+
+* **deps:** update python docker tag to v3.13 ([#20](https://github.com/contane/docker-yamllint/issues/20)) ([65e4f7f](https://github.com/contane/docker-yamllint/commit/65e4f7f3979bb572d5117ad2266eac2312cb1264))
+
 ## [1.1.0](https://github.com/contane/docker-yamllint/compare/v1.0.1...v1.1.0) (2024-07-12)
 
 
