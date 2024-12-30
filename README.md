@@ -24,6 +24,21 @@ To run `yamllint` on the current directory:
 docker run --rm --user yamllint -v "$(pwd):/data" contane/yamllint -f colored .
 ```
 
+### GitHub Actions
+
+To use this image in a GitHub Actions workflow, add the following to your `.github/workflows/*.yml`:
+
+```yaml
+jobs:
+  yamllint:
+    runs-on: ubuntu-latest
+    container:
+      image: contane/yamllint
+    steps:
+      - uses: actions/checkout@v4
+      - run: yamllint -f colored .
+```
+
 ### GitLab CI
 
 To use this image in a GitLab CI pipeline, add the following to your `.gitlab-ci.yml`:
