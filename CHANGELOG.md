@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://github.com/contane/docker-yamllint/compare/v1.2.0...v1.3.0) (2025-03-16)
+
+
+### Features
+
+* **deps:** update dependency adrienverge/yamllint to v1.36.1 ([#23](https://github.com/contane/docker-yamllint/issues/23)) ([b4f85cd](https://github.com/contane/docker-yamllint/commit/b4f85cd59036b118730281963516ec34b4831c84))
+
 ## [1.2.0](https://github.com/contane/docker-yamllint/compare/v1.1.0...v1.2.0) (2024-10-13)
 
 
