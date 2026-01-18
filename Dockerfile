@@ -4,7 +4,7 @@ FROM python:3.13-alpine3.20
 
 RUN addgroup -g 1000 yamllint && \
     adduser -u 1000 -G yamllint -s /bin/sh -D yamllint
-RUN pip3 install --root-user-action=ignore --no-cache-dir --no-compile "yamllint==v1.37.1"
+RUN pip3 install --root-user-action=ignore --no-cache-dir --no-compile "yamllint==v1.38.0"
 
 WORKDIR /data
 ENTRYPOINT ["yamllint"]
